@@ -47,5 +47,57 @@ p {
     line-height: 1.5;
     max-width: 35ch;
 }
+.button {
+    display: inline-block;
+    font-size: var(--fs-7);
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 10.5px 24px;
+    border-radius: 28px;
+    transition: 150ms ease-in-out;
+    transition-property: opacity;
+   
+}
 
+.button.dark {
+    background: var(--colour-blue-900);
+    color: var(--colour-white);
+
+}
+
+.button.dark:hover {
+    background: var(--colour-blue-600);
+    
+}
+
+.button.light {
+    background: var(--gradient-purple);
+    color: var(--colour-white);
+    
+
+}
+
+.button.light:hover {
+    background: var(--colour-blue-600);
+    
+}
+
+
+.button.pink {
+    background: var(--gradient-pink);
+    color: var(--colour-white);
+
+}
+
+.button.pink:hover {
+    opacity: 0.7;
+    
+
+}
+
+@media (width >= 75em) {
+    .button {
+        padding: 16px 32px;
+    }
+}
 
