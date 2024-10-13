@@ -1,0 +1,19 @@
+.wrapper {
+
+    padding-inline: 30px;
+}
+
+@media (width >= 50.625em) {
+    .wrapper {
+
+        padding-inline: 50px;
+    }
+    
+}
+
+@media (width >= 75em) {
+    .wrapper {
+        padding-inline: 55px;
+    }
+    
+}

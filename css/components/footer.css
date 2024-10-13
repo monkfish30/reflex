@@ -1,0 +1,38 @@
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 16px;
+    background: var(--colour-blue-900);
+    }
+    
+    .footer h3 {
+    color: var(--colour-grey);
+    
+    }
+
+    .list {
+        font-size: smaller;
+
+        list-style: none;
+        color: aqua;
+    }
+    
+    @media (width >= 50.625em) {
+        .footer {
+            padding-block: 34px;
+            font-size: 20px;
+        }
+    }
+    
+    @media (width >= 75em) {
+        .footer h3 {
+            font-size: 24px;
+        
+            
+        }
+
+        
+    }
+    

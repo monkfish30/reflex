@@ -1,0 +1,87 @@
+.treatments {
+
+background: linear-gradient(#ffffff, #f0f1ff 40%);
+padding-block: 24px 80px;
+}
+
+.treatments .wrapper{
+display: grid;
+row-gap: 50px;
+}
+
+.treatments .block {
+padding: 64px 32px 40px;
+border-radius: 15px;
+
+}
+
+.treatments .block.title {
+background: var(--gradient-pink);
+color: var(--colour-white);
+padding: 32px;
+
+}
+
+.treatments h2 {
+    font-size: var(--fs-3);
+}
+
+.treatments .treatment {
+    background: var(--colour-white);
+    position: relative;
+    display: grid;
+    gap: 24px;
+    grid-template-rows: min-content 1fr min-content;
+}
+
+.treatments img {
+    position: absolute;
+    top: 0;
+    translate: 32px -50% ;
+}
+
+.treatments h3 {
+    font-size: var(--fs-4);
+}
+
+.treatments p {
+    font-size: var(--fs-5);
+    margin: 0;
+}
+
+.treatments a {
+    font-size: var(--fs-7);
+    font-weight: 700;
+    color: var(--colour-pink-600);
+    transition: opacity 150ms ease-in-out;
+    align-self: end;
+}
+
+.treatments a:hover {
+    opacity: 50%;
+}
+
+@media (width >= 50.625em) {
+
+    .treatments .wrapper {
+
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 24px;
+    }
+
+    .treatments .block.title {
+
+        padding-block-start: 64px;
+    }
+}
+
+@media (width >= 75em) {
+
+    .treatments .wrapper {
+
+        grid-template-columns: repeat(3, 1fr);
+        gap: 64px 32px;
+    }
+
+    
+}
