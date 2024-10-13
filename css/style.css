@@ -142,3 +142,22 @@ p {
     --fs-6: clamp(0.875rem, 0.6153846153846154rem + 0.5128205128205128vw, 1rem);
     --fs-7: 1.125rem;
   }
+.wrapper {
+
+    padding-inline: 30px;
+}
+
+@media (width >= 50.625em) {
+    .wrapper {
+
+        padding-inline: 50px;
+    }
+    
+}
+
+@media (width >= 75em) {
+    .wrapper {
+        padding-inline: 55px;
+    }
+    
+}
