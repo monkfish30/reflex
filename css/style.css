@@ -161,3 +161,34 @@ p {
     }
     
 }
+.header {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-block: 16px;
+}
+
+.header h3 {
+color: var(--colour-grey);
+
+}
+
+@media (width >= 50.625em) {
+    .header {
+        padding-block: 34px;
+        font-size: 20px;
+    }
+}
+
+@media (width >= 75em) {
+    .header h3 {
+        font-size: 24px;
+        
+        
+    }
+
+    
+
+    
+}
