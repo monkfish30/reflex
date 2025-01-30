@@ -5,8 +5,8 @@
     --colour-pink-300: hsl(76,100%,18%);
     --colour-grey: hsl(110, 49%, 75%);
     --colour-white: hsl(0, 0%, 100%);
-    --gradient-purple: linear-gradient(hsl(68, 70%, 42%), hsl(68, 46%, 60%));
-    --gradient-pink: linear-gradient(hsl(146, 46%, 60%), hsl(332, 46%, 60%));
+    --gradient-purple: linear-gradient(hsl(21, 40%, 62%), hsl(290, 12%, 90%));
+    --gradient-pink: linear-gradient(hsl(116, 46%, 20%), hsl(332, 23%, 30%));
 
 
 }
