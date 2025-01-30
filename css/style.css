@@ -1,12 +1,12 @@
 :root {
-    --colour-blue-900: hsl(64,90%,44%);
-    --colour-blue-600: hsl(274,67%,58%);
-    --colour-pink-600: hsl(321,92%,15%);
-    --colour-pink-300: hsl(76,100%,18%);
-    --colour-grey: hsl(110, 49%, 75%);
+    --colour-blue-900: hsl(143,85%,39%);
+    --colour-blue-600: hsl(275,67%,48%);
+    --colour-pink-600: hsl(341,72%,48%);
+    --colour-pink-300: hsl(198,41%,25%);
+    --colour-grey: hsl(180, 4%, 33%);
     --colour-white: hsl(0, 0%, 100%);
-    --gradient-purple: linear-gradient(hsl(21, 40%, 62%), hsl(290, 12%, 90%));
-    --gradient-pink: linear-gradient(hsl(116, 46%, 20%), hsl(332, 23%, 30%));
+    --gradient-purple: linear-gradient(hsl(123, 90%, 37%), hsl(65, 73%, 49%));
+    --gradient-pink: linear-gradient(hsl(145, 35%, 39%), hsl(58, 88%, 48%));
 
 
 }
