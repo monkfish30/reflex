@@ -253,6 +253,14 @@ color: var(--colour-grey);
 }
 
    } 
+
+@media (width >= 74em) {
+    .hero picture{
+     translate: 90% -10%;
+     
+ }
+}
+
 .treatments {
 
 background: linear-gradient(#ffffff, #f0f1ff 40%);
