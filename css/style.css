@@ -66,7 +66,7 @@ p {
 }
 
 .button.dark:hover {
-    background: var(--colour-blue-600);
+    opacity: 0.7;
     
 }
 
@@ -78,7 +78,7 @@ p {
 }
 
 .button.light:hover {
-    background: var(--colour-blue-600);
+     opacity: 0.7;
     
 }
 
