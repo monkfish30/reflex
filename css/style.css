@@ -336,6 +336,7 @@ margin-bottom: 45px;
     .treatments .block.title {
 
         padding-block-start: 64px;
+        margin-bottom: 0;
     }
 }
 
